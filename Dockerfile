@@ -1,4 +1,4 @@
-FROM ruby:2.5.1
+FROM ruby:2.4
 
 RUN apt-get update -qq && \
   apt-get install -y --no-install-recommends unzip python-dev && \
